@@ -3,13 +3,28 @@
 }
 h1 {
     font-weight: bold;
+    margin: 5px 5px 25px 25px;
 }
 p{
-    margin-bottom: 100px;
+    margin: 5px 5px 25px 25px;
 }
 .wrapper{
-    width: 400px;
-    height: 400px;
-    /* display: grid; */
-    /* background-color: blue; */
+    width: 800px;
+    height: 800px;
+    background-color: black;
 }
+    .wrapper h1{
+        color: purple;
+    }
+    .wrapper p{
+        color: white;
+    }
+    .wrapper img{
+        display: inline-block;
+        outline: 1px solid white;
+        width: 350px;
+        vertical-align: top;
+        padding: 2px;
+        background: white;
+        margin: 5px 5px 5px 25px;
+    }
